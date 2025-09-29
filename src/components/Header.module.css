@@ -12,6 +12,7 @@ nav {
 
 .navLinks {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem; /* Avstånd mellan länkarna */
 }
 
@@ -32,4 +33,12 @@ nav {
 .title {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media (max-width: 720px) {
+
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 }
