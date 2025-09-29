@@ -9,13 +9,6 @@ html, body, #root {
   min-height: 100vh; /* Full viewport-höjd */
 }
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
 main {
   flex: 1; /* Tar upp all plats mellan header och footer */
   padding: 2rem;
@@ -31,16 +24,6 @@ footer {
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 0.5rem;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
 
 section {
